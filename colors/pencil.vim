@@ -118,7 +118,7 @@ else
   let s:bg              = s:white
   let s:bg_subtle       = s:light_gray
   let s:bg_very_subtle  = s:lighter_gray
-  let s:norm            = s:light_black
+  let s:norm            = s:black
   let s:norm_subtle     = s:lighter_black
   let s:purple          = s:dark_purple
   let s:cyan            = s:dark_cyan
