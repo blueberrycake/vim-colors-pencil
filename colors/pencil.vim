@@ -358,6 +358,9 @@ call s:h("mmdTableHeader",              {"fg": s:norm})
 call s:h("mmdTableCaptionDelimiter",    {"fg": s:norm})
 call s:h("mmdTableCaption",             {"fg": s:norm})
 
+" vim-pandoc/vim-pandoc-syntax
+call s:h("pandocAtxHeader",          {"fg": s:norm  , "gui": "bold"       , "cterm": "bold"  })
+
 " Textile content
 " https://github.com/timcharper/textile.vim/blob/master/syntax/textile.vim
 "call s:h("txtBold",                {"fg": s:norm  , "gui": "bold"       , "cterm": "bold"  })
